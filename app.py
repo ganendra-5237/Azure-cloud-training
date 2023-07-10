@@ -4,7 +4,7 @@ from azure.storage.blob import BlobServiceClient
 app = Flask(__name__)
 
 # Connect to Azure Blob Storage
-connection_string = """DefaultEndpointsProtocol=https;AccountName=ganendrastrgaccnt;AccountKey=5dJZMl0oSm36/qlfIhPou2mTfcKHLiLzA991Z5g8/CSkA8Cx+1ey6D+QE+/wayVq06Ix1haNoWyE+AStdds+Xg==;EndpointSuffix=core.windows.net"""
+connection_string = """<connection_string>"""
 blob_service_client = BlobServiceClient.from_connection_string(connection_string)
 
 
